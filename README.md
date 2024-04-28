@@ -61,3 +61,9 @@ docker build -t rust-test-assignment .
 docker run -p 8080:8080 rust-test-assignment
 ```
 
+### Tests
+
+Tests are running using command
+```sh
+cargo test --test mockito_test
+```
